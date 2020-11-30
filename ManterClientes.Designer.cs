@@ -182,6 +182,7 @@ namespace testeDeFrontEnd1
             this.button5.TabIndex = 16;
             this.button5.Text = "Histórico";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // label2
             // 
@@ -370,5 +371,6 @@ namespace testeDeFrontEnd1
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox textBox6;
+        private HistoricoCliente historicoCliente1;
     }
 }

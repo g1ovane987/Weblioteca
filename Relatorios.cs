@@ -23,6 +23,8 @@ namespace testeDeFrontEnd1
         {
             SidePanelForm1.Height = RelatorioEmprestimosCliente.Height;
             SidePanelForm1.Top = RelatorioEmprestimosCliente.Top;
+            ParametrizarRelatorioCliente parametrizarRelatorioCliente1 = new ParametrizarRelatorioCliente();
+            parametrizarRelatorioCliente1.Show();
         }
 
         private void RelatorioEmprestimosDevolvidos_Click(object sender, EventArgs e)

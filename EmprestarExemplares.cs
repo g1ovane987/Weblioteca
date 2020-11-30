@@ -16,5 +16,16 @@ namespace testeDeFrontEnd1
         {
             InitializeComponent();
         }
+
+        private void button3Limpar_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            textBox2.Text = "";
+        }
+
+        private void button1Gravar_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Registro Gravado com Sucesso!");
+        }
     }
 }

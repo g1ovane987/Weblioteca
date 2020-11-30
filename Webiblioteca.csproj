@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbonarMulta.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AbonarMulta.Designer.cs">
+      <DependentUpon>AbonarMulta.cs</DependentUpon>
+    </Compile>
     <Compile Include="Cadastros.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -95,6 +101,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="HistoricoCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HistoricoCliente.Designer.cs">
+      <DependentUpon>HistoricoCliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="ManterAutores.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -124,6 +136,12 @@
     </Compile>
     <Compile Include="ManterLivros.Designer.cs">
       <DependentUpon>ManterLivros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParametrizarRelatorioCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParametrizarRelatorioCliente.Designer.cs">
+      <DependentUpon>ParametrizarRelatorioCliente.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="ProlongarEmprestimo.cs">
@@ -163,6 +181,9 @@
     <Compile Include="TelaHome.Designer.cs">
       <DependentUpon>TelaHome.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AbonarMulta.resx">
+      <DependentUpon>AbonarMulta.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Cadastros.resx">
       <DependentUpon>Cadastros.cs</DependentUpon>
     </EmbeddedResource>
@@ -187,6 +208,9 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="HistoricoCliente.resx">
+      <DependentUpon>HistoricoCliente.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ManterAutores.resx">
       <DependentUpon>ManterAutores.cs</DependentUpon>
     </EmbeddedResource>
@@ -201,6 +225,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ManterLivros.resx">
       <DependentUpon>ManterLivros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParametrizarRelatorioCliente.resx">
+      <DependentUpon>ParametrizarRelatorioCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProlongarEmprestimo.resx">
       <DependentUpon>ProlongarEmprestimo.cs</DependentUpon>

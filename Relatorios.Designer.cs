@@ -118,5 +118,6 @@ namespace testeDeFrontEnd1
         private System.Windows.Forms.Button RelatorioEmprestimosDevolvidos;
         private System.Windows.Forms.Button RelatorioEmprestimosCliente;
         private System.Windows.Forms.Panel SidePanelForm1;
+        private ParametrizarRelatorioCliente parametrizarRelatorioCliente1;
     }
 }

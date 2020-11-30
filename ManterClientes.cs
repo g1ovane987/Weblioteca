@@ -17,5 +17,10 @@ namespace testeDeFrontEnd1
             InitializeComponent();
         }
 
+        private void button5_Click(object sender, EventArgs e)
+        {
+            HistoricoCliente historicoCliente1 = new HistoricoCliente();
+            historicoCliente1.Show();
+        }
     }
 }

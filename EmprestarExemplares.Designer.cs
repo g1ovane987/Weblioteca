@@ -65,6 +65,7 @@ namespace testeDeFrontEnd1
             this.button1Gravar.TabIndex = 33;
             this.button1Gravar.Text = "Gravar";
             this.button1Gravar.UseVisualStyleBackColor = true;
+            this.button1Gravar.Click += new System.EventHandler(this.button1Gravar_Click);
             // 
             // label2ClienteNome
             // 
@@ -181,6 +182,7 @@ namespace testeDeFrontEnd1
             this.button3Limpar.TabIndex = 21;
             this.button3Limpar.Text = "Limpar";
             this.button3Limpar.UseVisualStyleBackColor = true;
+            this.button3Limpar.Click += new System.EventHandler(this.button3Limpar_Click);
             // 
             // button2Excluir
             // 

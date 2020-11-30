@@ -36,6 +36,8 @@ namespace testeDeFrontEnd1
             this.ProlongarEmprestimo = new System.Windows.Forms.Button();
             this.FaturarEmprestimo = new System.Windows.Forms.Button();
             this.DevolucaoExemplares = new System.Windows.Forms.Button();
+            this.button1AbonarMulta = new System.Windows.Forms.Button();
+            this.abonarMulta1 = new testeDeFrontEnd1.AbonarMulta();
             this.prolongarEmprestimo1 = new testeDeFrontEnd1.ProlongarEmprestimo();
             this.devolucaoDeExemplares1 = new testeDeFrontEnd1.DevolucaoDeExemplares();
             this.emprestarExemplares1 = new testeDeFrontEnd1.EmprestarExemplares();
@@ -65,6 +67,7 @@ namespace testeDeFrontEnd1
             this.panel1.Controls.Add(this.FaturarEmprestimo);
             this.panel1.Controls.Add(this.DevolucaoExemplares);
             this.panel1.Controls.Add(this.EmprestarExemplares);
+            this.panel1.Controls.Add(this.button1AbonarMulta);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(221, 420);
@@ -92,7 +95,7 @@ namespace testeDeFrontEnd1
             this.ProlongarEmprestimo.FlatAppearance.BorderSize = 0;
             this.ProlongarEmprestimo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ProlongarEmprestimo.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ProlongarEmprestimo.Location = new System.Drawing.Point(0, 313);
+            this.ProlongarEmprestimo.Location = new System.Drawing.Point(0, 248);
             this.ProlongarEmprestimo.Name = "ProlongarEmprestimo";
             this.ProlongarEmprestimo.Size = new System.Drawing.Size(227, 62);
             this.ProlongarEmprestimo.TabIndex = 3;
@@ -106,7 +109,7 @@ namespace testeDeFrontEnd1
             this.FaturarEmprestimo.FlatAppearance.BorderSize = 0;
             this.FaturarEmprestimo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.FaturarEmprestimo.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FaturarEmprestimo.Location = new System.Drawing.Point(0, 218);
+            this.FaturarEmprestimo.Location = new System.Drawing.Point(0, 171);
             this.FaturarEmprestimo.Name = "FaturarEmprestimo";
             this.FaturarEmprestimo.Size = new System.Drawing.Size(227, 62);
             this.FaturarEmprestimo.TabIndex = 2;
@@ -120,13 +123,35 @@ namespace testeDeFrontEnd1
             this.DevolucaoExemplares.FlatAppearance.BorderSize = 0;
             this.DevolucaoExemplares.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.DevolucaoExemplares.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DevolucaoExemplares.Location = new System.Drawing.Point(0, 122);
+            this.DevolucaoExemplares.Location = new System.Drawing.Point(0, 98);
             this.DevolucaoExemplares.Name = "DevolucaoExemplares";
             this.DevolucaoExemplares.Size = new System.Drawing.Size(227, 62);
             this.DevolucaoExemplares.TabIndex = 1;
             this.DevolucaoExemplares.Text = "Devolução de Exemplares";
             this.DevolucaoExemplares.UseVisualStyleBackColor = false;
             this.DevolucaoExemplares.Click += new System.EventHandler(this.DevolucaoExemplares_Click);
+            // 
+            // button1AbonarMulta
+            // 
+            this.button1AbonarMulta.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.button1AbonarMulta.FlatAppearance.BorderSize = 0;
+            this.button1AbonarMulta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1AbonarMulta.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1AbonarMulta.Location = new System.Drawing.Point(-3, 323);
+            this.button1AbonarMulta.Name = "button1AbonarMulta";
+            this.button1AbonarMulta.Size = new System.Drawing.Size(227, 62);
+            this.button1AbonarMulta.TabIndex = 4;
+            this.button1AbonarMulta.Text = "Abonar Multa";
+            this.button1AbonarMulta.UseVisualStyleBackColor = false;
+            this.button1AbonarMulta.Click += new System.EventHandler(this.button1AbonarMulta_Click);
+            // 
+            // abonarMulta1
+            // 
+            this.abonarMulta1.Location = new System.Drawing.Point(227, 0);
+            this.abonarMulta1.Name = "abonarMulta1";
+            this.abonarMulta1.Size = new System.Drawing.Size(500, 420);
+            this.abonarMulta1.TabIndex = 6;
+            this.abonarMulta1.Load += new System.EventHandler(this.abonarMulta1_Load);
             // 
             // prolongarEmprestimo1
             // 
@@ -160,6 +185,7 @@ namespace testeDeFrontEnd1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.abonarMulta1);
             this.Controls.Add(this.prolongarEmprestimo1);
             this.Controls.Add(this.devolucaoDeExemplares1);
             this.Controls.Add(this.emprestarExemplares1);
@@ -185,5 +211,7 @@ namespace testeDeFrontEnd1
         private EmprestarExemplares emprestarExemplares1;
         private DevolucaoDeExemplares devolucaoDeExemplares1;
         private ProlongarEmprestimo prolongarEmprestimo1;
+        private System.Windows.Forms.Button button1AbonarMulta;
+        private AbonarMulta abonarMulta1;
     }
 }

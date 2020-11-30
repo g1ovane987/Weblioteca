@@ -12,9 +12,10 @@ namespace testeDeFrontEnd1
 {
     public partial class Form1 : Form
     {
-        public Form1(){
+        public Form1()
+        {
             InitializeComponent();
-            
+
             SidePanelForm1.Height = botaoHome.Height;
             SidePanelForm1.Top = botaoHome.Top;
             telaHome1.BringToFront();
