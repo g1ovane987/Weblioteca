@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4CBEFE7D-A9D2-482D-B030-06237B94E20A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>testeDeFrontEnd1</RootNamespace>
+    <AssemblyName>testeDeFrontEnd1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbonarMulta.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AbonarMulta.Designer.cs">
+      <DependentUpon>AbonarMulta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastros.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Cadastros.Designer.cs">
+      <DependentUpon>Cadastros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CancelarReserva.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CancelarReserva.Designer.cs">
+      <DependentUpon>CancelarReserva.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DevolucaoDeExemplares.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DevolucaoDeExemplares.Designer.cs">
+      <DependentUpon>DevolucaoDeExemplares.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmprestarExemplares.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EmprestarExemplares.Designer.cs">
+      <DependentUpon>EmprestarExemplares.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmprestimoReserva.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EmprestimoReserva.Designer.cs">
+      <DependentUpon>EmprestimoReserva.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Emprestimos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Emprestimos.Designer.cs">
+      <DependentUpon>Emprestimos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FaturarEmprestimo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FaturarEmprestimo.Designer.cs">
+      <DependentUpon>FaturarEmprestimo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManterAutores.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ManterAutores.Designer.cs">
+      <DependentUpon>ManterAutores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManterClientes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ManterClientes.Designer.cs">
+      <DependentUpon>ManterClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManterEditoras.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ManterEditoras.Designer.cs">
+      <DependentUpon>ManterEditoras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManterFuncionarios.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ManterFuncionarios.Designer.cs">
+      <DependentUpon>ManterFuncionarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManterLivros.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ManterLivros.Designer.cs">
+      <DependentUpon>ManterLivros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="ProlongarEmprestimo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProlongarEmprestimo.Designer.cs">
+      <DependentUpon>ProlongarEmprestimo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Relatorios.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Relatorios.Designer.cs">
+      <DependentUpon>Relatorios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReservarExemplar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReservarExemplar.Designer.cs">
+      <DependentUpon>ReservarExemplar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reservas.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Reservas.Designer.cs">
+      <DependentUpon>Reservas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaDeLogin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TelaDeLogin.Designer.cs">
+      <DependentUpon>TelaDeLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TelaHome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TelaHome.Designer.cs">
+      <DependentUpon>TelaHome.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AbonarMulta.resx">
+      <DependentUpon>AbonarMulta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastros.resx">
+      <DependentUpon>Cadastros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CancelarReserva.resx">
+      <DependentUpon>CancelarReserva.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevolucaoDeExemplares.resx">
+      <DependentUpon>DevolucaoDeExemplares.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmprestarExemplares.resx">
+      <DependentUpon>EmprestarExemplares.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmprestimoReserva.resx">
+      <DependentUpon>EmprestimoReserva.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Emprestimos.resx">
+      <DependentUpon>Emprestimos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FaturarEmprestimo.resx">
+      <DependentUpon>FaturarEmprestimo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManterAutores.resx">
+      <DependentUpon>ManterAutores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManterClientes.resx">
+      <DependentUpon>ManterClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManterEditoras.resx">
+      <DependentUpon>ManterEditoras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManterFuncionarios.resx">
+      <DependentUpon>ManterFuncionarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManterLivros.resx">
+      <DependentUpon>ManterLivros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProlongarEmprestimo.resx">
+      <DependentUpon>ProlongarEmprestimo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Relatorios.resx">
+      <DependentUpon>Relatorios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReservarExemplar.resx">
+      <DependentUpon>ReservarExemplar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reservas.resx">
+      <DependentUpon>Reservas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaDeLogin.resx">
+      <DependentUpon>TelaDeLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaHome.resx">
+      <DependentUpon>TelaHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
