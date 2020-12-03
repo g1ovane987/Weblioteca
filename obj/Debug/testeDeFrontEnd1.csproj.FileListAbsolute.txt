@@ -1,0 +1,11 @@
+C:\Users\Henrique Kajihara\source\repos\testeDeFrontEnd1\testeDeFrontEnd1\bin\Debug\testeDeFrontEnd1.exe.config
+C:\Users\Henrique Kajihara\source\repos\testeDeFrontEnd1\testeDeFrontEnd1\bin\Debug\testeDeFrontEnd1.exe
+C:\Users\Henrique Kajihara\source\repos\testeDeFrontEnd1\testeDeFrontEnd1\bin\Debug\testeDeFrontEnd1.pdb
+C:\Users\Henrique Kajihara\source\repos\testeDeFrontEnd1\testeDeFrontEnd1\obj\Debug\testeDeFrontEnd1.csprojAssemblyReference.cache
+C:\Users\Henrique Kajihara\source\repos\testeDeFrontEnd1\testeDeFrontEnd1\obj\Debug\testeDeFrontEnd1.Cadastros.resources
+C:\Users\Henrique Kajihara\source\repos\testeDeFrontEnd1\testeDeFrontEnd1\obj\Debug\testeDeFrontEnd1.Form1.resources
+C:\Users\Henrique Kajihara\source\repos\testeDeFrontEnd1\testeDeFrontEnd1\obj\Debug\testeDeFrontEnd1.Properties.Resources.resources
+C:\Users\Henrique Kajihara\source\repos\testeDeFrontEnd1\testeDeFrontEnd1\obj\Debug\testeDeFrontEnd1.csproj.GenerateResource.cache
+C:\Users\Henrique Kajihara\source\repos\testeDeFrontEnd1\testeDeFrontEnd1\obj\Debug\testeDeFrontEnd1.csproj.CoreCompileInputs.cache
+C:\Users\Henrique Kajihara\source\repos\testeDeFrontEnd1\testeDeFrontEnd1\obj\Debug\testeDeFrontEnd1.exe
+C:\Users\Henrique Kajihara\source\repos\testeDeFrontEnd1\testeDeFrontEnd1\obj\Debug\testeDeFrontEnd1.pdb
